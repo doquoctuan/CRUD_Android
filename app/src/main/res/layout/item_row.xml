@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtProductID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã: 01"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm: Phone X"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/txtBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãng sản xuất: Apple"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/txtGiaBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá bán: 19.000.000 VNĐ"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+</LinearLayout>

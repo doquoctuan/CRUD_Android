@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Product"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textSize="26sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/edtDetailBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your brand"
+        android:textSize="26sp"/>
+    <EditText
+        android:id="@+id/edtDetailPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your price"
+        android:textSize="26sp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btnDetailOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_baseline_edit_24" />
+
+        <Button
+            android:id="@+id/btnDetailCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="CANCEL"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_baseline_cancel_24" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnDetailDelete"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Delete"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_baseline_delete_24" />
+</LinearLayout>
